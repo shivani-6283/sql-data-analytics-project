@@ -1,33 +1,34 @@
-/*
+/* =============================================================
+Database & Schema Setup
 =============================================================
-Create Database and Schemas
-=============================================================
-Script Purpose:
-    This script creates a new database named 'DataWarehouseAnalytics' after checking if it already exists. 
-    If the database exists, it is dropped and recreated. Additionally, this script creates a schema called gold
-	
-WARNING:
-    Running this script will drop the entire 'DataWarehouseAnalytics' database if it exists. 
-    All data in the database will be permanently deleted. Proceed with caution 
-    and ensure you have proper backups before running this script.
+Purpose: This script creates a database named 'DataAnalytics'.
+If the database already exists, it will be removed and created 
+again from scratch. A 'gold' schema is also created for storing
+the final data objects.
+
+Important: 
+Running this script will permanently remove the existing 
+'DataWarehouseAnalytics' database along with all of its data.
+Make sure any required data has been backed up before executing
+this script.
 */
 
 USE master;
 GO
 
--- Drop and recreate the 'DataWarehouseAnalytics' database
-IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouseAnalytics')
+-- Drop and recreate the 'DataAnalytics' database
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataAnalytics')
 BEGIN
-    ALTER DATABASE DataWarehouseAnalytics SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
-    DROP DATABASE DataWarehouseAnalytics;
+    ALTER DATABASE DataAnalytics SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE DataAnalytics;
 END;
 GO
 
--- Create the 'DataWarehouseAnalytics' database
-CREATE DATABASE DataWarehouseAnalytics;
+-- Create the 'DataAnalytics' database
+CREATE DATABASE DataAnalytics;
 GO
 
-USE DataWarehouseAnalytics;
+USE DataAnalytics;
 GO
 
 -- Create Schemas
