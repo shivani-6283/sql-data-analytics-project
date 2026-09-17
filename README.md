@@ -4,7 +4,7 @@
 
 This project focuses on performing **Exploratory Data Analysis (EDA) using SQL** on a prepared sales dataset from a bicycle manufacturing and sales business.
 
-The analysis uses data from the **Gold layer of the database**, where the data has already been cleaned, transformed, and structured for analysis. The focus of this project is **business exploration and and meaningful insight generation**.
+The analysis uses data from the **Gold layer of the database**, where the data has already been cleaned, transformed, and structured for analysis. The focus of this project is **business exploration and meaningful insight generation**.
 
 The analysis explores **overall business performance, product performance, customer contributions, and sales trends over time** using SQL.
 
@@ -26,6 +26,7 @@ Management wants a clearer understanding of the company's overall performance an
 * What key patterns and trends can be identified?
   
 ---
+## 🗂️ 3. Dataset Information
 
 ### 📋 Data Overview
 
