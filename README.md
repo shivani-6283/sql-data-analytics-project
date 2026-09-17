@@ -4,41 +4,35 @@
 
 This project focuses on performing **Exploratory Data Analysis (EDA) using SQL** on a prepared sales dataset from a bicycle manufacturing and sales business.
 
-The analysis is performed on data from the **Gold layer of the database**, where the data has already been cleaned, transformed, and structured for analysis. Therefore, this project focuses on **understanding the business through the available data rather than performing data cleaning**.
+The analysis uses data from the **Gold layer of the database**, where the data has already been cleaned, transformed, and structured for analysis. The focus of this project is **business exploration and and meaningful insight generation**.
 
-The EDA is performed to understand **overall business performance, product performance, customer contributions, and changes in sales over time**. SQL is used to explore the data, calculate key business metrics, and identify patterns and trends.
-
-The goal of this project is to turn the prepared data into **meaningful business insights** that can help management better understand the company's sales, products, and customers and identify areas that may require further investigation.
+The analysis explores **overall business performance, product performance, customer contributions, and sales trends over time** using SQL.
 
 ---
 
 ## 🎯 2. Business Context & Objectives
 
-The company is a **bicycle manufacturing and sales business** that sells bicycles, components, accessories, and clothing to customers.
+The company is a **bicycle manufacturing and sales business** offering bicycles, components, accessories, and cycling clothing.
 
-The company has accumulated a large amount of historical sales data along with information about its customers and products. However, management needs a clearer understanding of overall business performance and the factors contributing to it.
+Management wants a clearer understanding of the company's overall performance and the factors contributing to it.
 
-### 🔍 Management wants to understand:
+### 🔍 Key Business Questions
 
 * How is the business performing overall?
-* Which products and product categories contribute most to sales?
+* Which products and categories contribute most to sales?
 * How are customers and sales distributed across different markets?
 * How has business performance changed over time?
 * Which products and customers show stronger or weaker performance?
-* What key patterns and trends can be identified from the historical data?
-
+* What key patterns and trends can be identified?
+  
 ---
 
-## 🗂️ 3. Dataset Information
+### 📋 Data Overview
 
-### 📋 Type of Data
-
-* **Business Domain:** Retail / Sales / Product / Customer Data
-* **Business Industry:** Bicycle Manufacturing and Sales
+* **Business Domain:** Retail / Sales / Product / Customer
+* **Industry:** Bicycle Manufacturing and Sales
 * **Data Structure:** Relational Database
-* **Analytical Role:** Fact + Dimension Data
-
-### 🏗️ Dataset Overview
+* **Analytical Model:** Star Schema
 
 The dataset contains historical **sales, customer, and product data** and is organized into a simple **star schema** consisting of **one fact table and two dimension tables**.
 
@@ -81,80 +75,38 @@ The **`fact_sales`** table connects with the **`dim_customers`** and **`dim_prod
 
 ---
 
-## 🔎 4. Analysis
+## 🔎 4. Analysis Approach
 
-### 🧭 Approach
+The EDA follows a structured approach:
 
-The project follows a structured analytical process:
-
-### 1️⃣ Understand the Database
-
-Review the available tables, columns, relationships, and data ranges.
-
-### 2️⃣ Explore Dimensions
-
-Analyze customer and product attributes such as country, gender, category, subcategory, and product line.
-
-### 3️⃣ Examine Key Metrics
-
-Calculate total sales, total orders, total quantity, average values, and other important measures.
-
-### 4️⃣ Analyze Magnitude
-
-Compare sales across products, categories, customers, and countries.
-
-### 5️⃣ Analyze Rankings
-
-Identify top-performing products and customers.
-
-### 6️⃣ Analyze Trends
-
-Examine sales and order behavior over time.
-
-### 7️⃣ Analyze Performance
-
-Compare different entities based on sales, quantity, profit, or other relevant measures.
-
-### 8️⃣ Segment the Data
-
-Group customers or products into meaningful segments.
-
-### 9️⃣ Analyze Revenue Contribution
-
-Understand how individual products, categories, and customers contribute to total revenue.
-
-### 🔟 Prepare Reports
-
-Create summarized customer and product reports that consolidate important analytical results.
+1. **Database Exploration** — Understand tables, columns, relationships, and data ranges.
+2. **Dimension Exploration** — Analyze customer and product attributes such as country, gender, category, subcategory, and product line.
+3. **Key Metrics** — Calculate total sales, total orders, total quantity, average values, and other important measures.
+4. **Magnitude & Rankings** — Compare sales across products, categories, customers, and countries & Identify top-performing products and customers.
+5. **Trend Analysis** — Examine sales and order patterns over time.
+6. **Performance Analysis** — Compare different entities based on sales, quantity, profit, or other relevant measures.
+7. **Segmentation** — Group products and customers into meaningful segments.
+8. **Revenue Contribution** — Understand how individual products, categories, and customers contribute to total revenue.
+9. **Reporting** — Create summarized customer and product reports that consolidate important analytical results.
 
 ---
 
-## 💡 5. Detailed Observations / Findings
+## 💡 5. Findings
 
-This section presents the key findings identified during the exploratory data analysis.
+This section presents the key insights identified from the SQL-based exploratory analysis, including observations related to:
 
-The findings will summarize important observations related to:
-
-* 📈 Overall business performance
+* 📈 Business performance
 * 🚲 Product and category performance
 * 👥 Customer performance
-* 📅 Sales trends over time
+* 📅 Sales trends
 * 💰 Revenue contribution
-* 🧩 Customer and product segments
-* 🔎 Other significant patterns identified during the analysis
+* 🔎 Product and customer segments
 
 ---
 
 ## 💼 6. Recommendations
 
-Based on the findings from the exploratory data analysis, this section will provide **data-driven recommendations and areas for further investigation**.
+Recommendations will be based on the findings from the EDA and will highlight **areas of stronger or weaker performance, potential opportunities, and areas that may require further investigation**.
 
-The recommendations will focus on areas such as:
-
-* 🚲 Product performance
-* 👥 Customer contribution
-* 📈 Sales trends
-* 💰 Revenue opportunities
-* 🔎 Areas showing relatively stronger or weaker performance
 
 The recommendations will be based on the findings identified from the SQL analysis rather than assumptions.
