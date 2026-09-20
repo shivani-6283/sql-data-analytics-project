@@ -3,9 +3,9 @@
 Part-to-Whole Analysis
 ===============================================================================
 Purpose:
-    - To identify the contribution of each product category to overall sales.
+    - To identify the contribution of each product category and the product to overall sales.
     - To compare sales performance across product categories.
-    - To calculate the percentage contribution of each category to total sales.
+    - To calculate the percentage contribution of each category and product to total sales.
 
 SQL Functions Used:
     - SUM(): Calculates total sales by category.
