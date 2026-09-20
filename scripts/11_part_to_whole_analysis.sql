@@ -31,3 +31,21 @@ SELECT
     ROUND((CAST(total_sales AS FLOAT) / SUM(total_sales) OVER ()) * 100, 2) AS percentage_of_total
 FROM category_sales
 ORDER BY total_sales DESC;
+
+-- What are the Top 5 products contribution to the overall sales
+WITH category_sales AS (
+    SELECT
+        p.product_name,
+        SUM(f.sales_amount) AS total_sales
+    FROM gold.fact_sales f
+    LEFT JOIN gold.dim_products p
+        ON p.product_key = f.product_key
+    GROUP BY  p.product_name
+)
+SELECT TOP 5
+    product_name,
+    total_sales,
+    SUM(total_sales) OVER () AS overall_sales,
+    ROUND((CAST(total_sales AS FLOAT) / SUM(total_sales) OVER ()) * 100, 2) AS percentage_of_total
+FROM category_sales
+ORDER BY total_sales DESC;
