@@ -98,7 +98,7 @@ The EDA follows a structured approach:
 
 ---
 
-### 📊 1. Overall Business Performance
+### 📊 Overall Business Performance
 
 - **Total Sales:** 29,356,250
 - **Total Quantity Sold:** 60,423 units
@@ -109,7 +109,7 @@ The EDA follows a structured approach:
 
 ---
 
-### 🏆 2. Sales Contribution by Category and Product
+### 🏆 Sales Contribution by Category and Product
 
 **Top Performing Category**  
 Bikes generated **28,316,272**, contributing **96.5% of total revenue**.
@@ -119,7 +119,7 @@ Mountain-200 Black, 46 generated **1,373,454**, contributing **4.68% of total re
 
 ---
 
-### 🌍 3. Geographic Distribution
+### 🌍 Geographic Distribution
 
 **Customer and Sold Item Distribution by Country**
 
@@ -138,7 +138,7 @@ The **United States** has the highest number of both customers (**7,482**) and s
 
 ---
 
-### 📈 4. Best vs. Lowest Selling Products
+### 📈 Best vs. Lowest Selling Products
 
 #### 🔝 Top 5 Best-Selling Products
 
@@ -158,7 +158,7 @@ The **United States** has the highest number of both customers (**7,482**) and s
 
 ---
 
-### 💰 5. Product Pricing & Customer Segmentation
+### 💰 Product Pricing & Customer Segmentation
 
 #### 💵 Product Price Distribution
 
@@ -177,7 +177,7 @@ Customers are categorized based on **customer lifespan (account age) and lifetim
 
 ---
 
-### 📅 6. Business Trends and Seasonality
+### 📅 Business Trends and Seasonality
 
 #### 📊 Business Performance Change Over Time
 
