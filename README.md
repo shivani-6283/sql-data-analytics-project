@@ -94,11 +94,11 @@ The EDA follows a structured approach:
 
 ## 💡 5. Findings
 
-# 🔎 Key Findings & Insights
+### 🔎 Key Findings & Insights
 
 ---
 
-## 📊 1. Overall Business Performance
+### 📊 1. Overall Business Performance
 
 - **Total Sales:** 29,356,250
 - **Total Quantity Sold:** 60,423 units
@@ -109,7 +109,7 @@ The EDA follows a structured approach:
 
 ---
 
-## 🏆 2. Sales Contribution by Category and Product
+### 🏆 2. Sales Contribution by Category and Product
 
 **Top Performing Category**  
 Bikes generated **28,316,272**, contributing **96.5% of total revenue**.
@@ -119,7 +119,7 @@ Mountain-200 Black, 46 generated **1,373,454**, contributing **4.68% of total re
 
 ---
 
-## 🌍 3. Geographic Distribution
+### 🌍 3. Geographic Distribution
 
 **Customer and Sold Item Distribution by Country**
 
@@ -138,9 +138,9 @@ The **United States** has the highest number of both customers (**7,482**) and s
 
 ---
 
-## 📈 4. Best vs. Lowest Selling Products
+### 📈 4. Best vs. Lowest Selling Products
 
-### 🔝 Top 5 Best-Selling Products
+#### 🔝 Top 5 Best-Selling Products
 
 1. **Mountain-200 Black, 46** — 1,373,454
 2. **Mountain-200 Black, 42** — 1,363,128
@@ -148,7 +148,7 @@ The **United States** has the highest number of both customers (**7,482**) and s
 4. **Mountain-200 Silver, 46** — 1,301,029
 5. **Mountain-200 Black, 38** — 1,294,854
 
-### 🔻 Top 5 Lowest-Selling Products
+#### 🔻 Top 5 Lowest-Selling Products
 
 1. **Racing Socks - L** — 2,430
 2. **Racing Socks - M** — 2,682
@@ -158,16 +158,16 @@ The **United States** has the highest number of both customers (**7,482**) and s
 
 ---
 
-## 💰 5. Product Pricing & Customer Segmentation
+### 💰 5. Product Pricing & Customer Segmentation
 
-### 💵 Product Price Distribution
+#### 💵 Product Price Distribution
 
 - **Under 100:** 110 products
 - **100 to 500:** 101 products
 - **500 to 1,000:** 45 products
 - **Above 1,000:** 39 products
 
-### 👥 Customer Segmentation (Loyalty & Spend)
+#### 👥 Customer Segmentation (Loyalty & Spend)
 
 Customers are categorized based on **customer lifespan (account age) and lifetime spending**:
 
@@ -177,9 +177,9 @@ Customers are categorized based on **customer lifespan (account age) and lifetim
 
 ---
 
-## 📅 6. Business Trends and Seasonality
+### 📅 6. Business Trends and Seasonality
 
-### 📊 Business Performance Change Over Time
+#### 📊 Business Performance Change Over Time
 
 **2011 → 2012**
 
@@ -195,11 +195,11 @@ Customers are categorized based on **customer lifespan (account age) and lifetim
 - **Quantity Sold:** Increased from **3,397 to 52,807 (+1,454.8%)**.
 - **Overall:** 2013 recorded strong growth across sales, customers, and quantity sold.
 
-### 📈 Overall Trend
+#### 📈 Overall Trend
 
 Business performance fluctuated between **2011 and 2012** but increased substantially in **2013**.
 
-### 🔄 Seasonality Patterns
+#### 🔄 Seasonality Patterns
 
 The monthly analysis indicates a seasonal pattern. Business activity tends to be stronger in **June** and during **October–December**, with **December being the strongest month** across sales, customers, and quantity.
 
@@ -207,6 +207,7 @@ The monthly analysis indicates a seasonal pattern. Business activity tends to be
 
 > 📝 **Data Note:** 2010 includes only **December sales**, while 2014 includes only **January sales**. As these years do not represent complete annual periods, they were excluded from year-over-year business performance and seasonality analysis to avoid misleading comparisons.
 ```
+
 
 ---
 
