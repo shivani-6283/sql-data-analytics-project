@@ -211,8 +211,26 @@ The monthly analysis indicates a seasonal pattern. Business activity tends to be
 
 ## 💼 6. Recommendations
 
-Recommendations will be based on the findings from the EDA and will highlight **areas of stronger or weaker performance, potential opportunities, and areas that may require further investigation**.
+### 🚲 Expand high-performing products
 
-The recommendations will be based on the findings identified from the SQL analysis rather than assumptions.
+Bikes generate **96.5% of total revenue**, with **Mountain-200 models among the top-selling products**. The business should focus on these top-performing models and **explore opportunities to expand the range of similar products to drive further sales**.
 
-The recommendations will be based on the findings identified from the SQL analysis rather than assumptions.
+### 💰 Sell more higher-value items
+
+Since **2012** sales dropped because customers purchased more lower-priced products, the business should focus on **promoting higher-value items** to increase revenue instead of relying only on selling more items overall.
+
+### 📅 Use seasonal demand for planning
+
+**June and October–December** have higher activity. The business can **prepare inventory and marketing activities in advance** to meet higher demand and increase sales during these peak periods.
+
+### 🤝 Focus on customer retention
+
+With **14,631 new customers**, the business can focus on keeping them engaged and encouraging repeat purchases to turn more of them into **Regular and VIP customers**, helping increase long-term sales.
+
+### 📉 Improve underperforming products
+
+Review low-selling products and make changes to their **pricing or promotion** to help boost their sales.
+
+### 🌎 Strengthen high-potential markets
+
+The **US** is our largest market in terms of customers and sold items. The business can study the **products and customer patterns** that perform well in the US and use these insights to **increase sales in the US and explore growth opportunities in similar markets**.
