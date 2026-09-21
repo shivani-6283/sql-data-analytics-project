@@ -94,14 +94,119 @@ The EDA follows a structured approach:
 
 ## 💡 5. Findings
 
-This section presents the key insights identified from the SQL-based exploratory analysis, including observations related to:
+# 🔎 Key Findings & Insights
 
-* 📈 Business performance
-* 🚲 Product and category performance
-* 👥 Customer performance
-* 📅 Sales trends
-* 💰 Revenue contribution
-* 🔎 Product and customer segments
+---
+
+## 📊 1. Overall Business Performance
+
+- **Total Sales:** 29,356,250
+- **Total Quantity Sold:** 60,423 units
+- **Average Selling Price:** 486
+- **Total Orders:** 27,659
+- **Total Products:** 295
+- **Total Unique Customers:** 18,484
+
+---
+
+## 🏆 2. Sales Contribution by Category and Product
+
+**Top Performing Category**  
+Bikes generated **28,316,272**, contributing **96.5% of total revenue**.
+
+**Top Performing Product**  
+Mountain-200 Black, 46 generated **1,373,454**, contributing **4.68% of total revenue**.
+
+---
+
+## 🌍 3. Geographic Distribution
+
+**Customer and Sold Item Distribution by Country**
+
+| Country | Customers | Sold Items |
+|---|---:|---:|
+| United States | 7,482 | 20,481 |
+| Australia | 3,591 | 13,346 |
+| Canada | 1,571 | 7,630 |
+| United Kingdom | 1,913 | 6,910 |
+| Germany | 1,780 | 5,626 |
+| France | 1,810 | 5,559 |
+| Undefined (N/A) | 337 | 871 |
+
+💡 **Key Insight:**  
+The **United States** has the highest number of both customers (**7,482**) and sold items (**20,481**), while **337 customers** and **871 sold items** have no country information defined.
+
+---
+
+## 📈 4. Best vs. Lowest Selling Products
+
+### 🔝 Top 5 Best-Selling Products
+
+1. **Mountain-200 Black, 46** — 1,373,454
+2. **Mountain-200 Black, 42** — 1,363,128
+3. **Mountain-200 Silver, 38** — 1,339,394
+4. **Mountain-200 Silver, 46** — 1,301,029
+5. **Mountain-200 Black, 38** — 1,294,854
+
+### 🔻 Top 5 Lowest-Selling Products
+
+1. **Racing Socks - L** — 2,430
+2. **Racing Socks - M** — 2,682
+3. **Patch Kit / 8 Patches** — 6,382
+4. **Bike Wash - Dissolver** — 7,272
+5. **Touring Tire Tube** — 7,440
+
+---
+
+## 💰 5. Product Pricing & Customer Segmentation
+
+### 💵 Product Price Distribution
+
+- **Under 100:** 110 products
+- **100 to 500:** 101 products
+- **500 to 1,000:** 45 products
+- **Above 1,000:** 39 products
+
+### 👥 Customer Segmentation (Loyalty & Spend)
+
+Customers are categorized based on **customer lifespan (account age) and lifetime spending**:
+
+- **VIP** (≥ 12 months lifespan & > 5,000 spend): **1,655 customers**
+- **Regular** (≥ 12 months lifespan & ≤ 5,000 spend): **2,198 customers**
+- **New** (< 12 months lifespan): **14,631 customers**
+
+---
+
+## 📅 6. Business Trends and Seasonality
+
+### 📊 Business Performance Change Over Time
+
+**2011 → 2012**
+
+- **Sales:** Decreased from **7,075,088 to 5,842,231 (-17.4%)**.
+- **Customers:** Increased from **2,216 to 3,255 (+46.9%)**.
+- **Quantity Sold:** Increased from **2,216 to 3,397 (+53.3%)**.
+- **Overall:** Customer growth and quantity sold did not translate into higher total sales.
+
+**2012 → 2013**
+
+- **Sales:** Increased from **5,842,231 to 16,344,878 (+179.8%)**.
+- **Customers:** Increased from **3,255 to 17,427 (+435.5%)**.
+- **Quantity Sold:** Increased from **3,397 to 52,807 (+1,454.8%)**.
+- **Overall:** 2013 recorded strong growth across sales, customers, and quantity sold.
+
+### 📈 Overall Trend
+
+Business performance fluctuated between **2011 and 2012** but increased substantially in **2013**.
+
+### 🔄 Seasonality Patterns
+
+The monthly analysis indicates a seasonal pattern. Business activity tends to be stronger in **June** and during **October–December**, with **December being the strongest month** across sales, customers, and quantity.
+
+---
+
+> 📝 **Data Note:** 2010 includes only **December sales**, while 2014 includes only **January sales**. As these years do not represent complete annual periods, they were excluded from year-over-year business performance and seasonality analysis to avoid misleading comparisons.
+```
 
 ---
 
