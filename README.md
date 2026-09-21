@@ -209,8 +209,6 @@ The monthly analysis indicates a seasonal pattern. Business activity tends to be
 ```
 
 
----
-
 ## 💼 6. Recommendations
 
 Recommendations will be based on the findings from the EDA and will highlight **areas of stronger or weaker performance, potential opportunities, and areas that may require further investigation**.
