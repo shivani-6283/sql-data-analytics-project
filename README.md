@@ -20,10 +20,10 @@ Management wants a clearer understanding of the company's overall performance an
 
 * How is the business performing overall?
 * Which products and categories contribute most to sales?
-* How are customers and sales distributed across different markets?
-* How has business performance changed over time?
-* Which products and customers show stronger or weaker performance?
-* What key patterns and trends can be identified?
+* What is the distribution of customers and sold quantity across countries?
+* What are the top 5 best-selling and bottom 5 lowest-selling products?
+* What does the overall picture look like for product price ranges and customer spending and loyalty behaviour?
+* How has business performance changed over time, and what key trends and patterns can be identified?
   
 ---
 ## 🗂️ 3. Dataset Information
