@@ -205,13 +205,14 @@ The monthly analysis indicates a seasonal pattern. Business activity tends to be
 
 ---
 
-> 📝 **Data Note:** 2010 includes only **December sales**, while 2014 includes only **January sales**. As these years do not represent complete annual periods, they were excluded from year-over-year business performance and seasonality analysis to avoid misleading comparisons.
-```
+> 📝 **Data Note:** 2010 includes only **December sales**, while **2014** includes only **January sales**. As these years do not represent complete annual periods, they were **excluded from year-over-year business performance and seasonality analysis** to avoid misleading comparisons.
 
+---
 
 ## 💼 6. Recommendations
 
 Recommendations will be based on the findings from the EDA and will highlight **areas of stronger or weaker performance, potential opportunities, and areas that may require further investigation**.
 
+The recommendations will be based on the findings identified from the SQL analysis rather than assumptions.
 
 The recommendations will be based on the findings identified from the SQL analysis rather than assumptions.
