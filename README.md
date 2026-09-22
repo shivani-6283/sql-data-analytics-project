@@ -59,7 +59,6 @@ Contains customer information, including:
 * Gender
 * Marital status
 * Birthdate
-* Customer creation date
 
 #### 🚲 `gold.dim_products` — Dimension Table
 
@@ -70,7 +69,6 @@ Contains information about the products sold by the company, including:
 * Subcategory
 * Cost
 * Product line
-* Start date
 
 The **`fact_sales`** table connects with the **`dim_customers`** and **`dim_products`** tables through their respective keys.
 
