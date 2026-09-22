@@ -54,7 +54,6 @@ Contains transaction-level sales information, including:
 
 Contains customer information, including:
 
-* Customer details
 * Country
 * Gender
 * Marital status
