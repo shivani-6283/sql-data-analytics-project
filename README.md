@@ -107,7 +107,6 @@ The EDA follows a structured approach:
 - **Total Products:** 295
 - **Total Unique Customers:** 18,484
 
----
 
 ### 🏆 Sales Contribution by Category and Product
 
@@ -117,7 +116,6 @@ Bikes generated **28,316,272**, contributing **96.5% of total revenue**.
 **Top Performing Product**  
 Mountain-200 Black, 46 generated **1,373,454**, contributing **4.68% of total revenue**.
 
----
 
 ### 🌍 Geographic Distribution
 
