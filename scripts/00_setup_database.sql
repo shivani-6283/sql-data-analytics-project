@@ -45,8 +45,7 @@ CREATE TABLE gold.dim_customers(
 	country nvarchar(50),
 	marital_status nvarchar(50),
 	gender nvarchar(50),
-	birthdate date,
-	create_date date
+	birthdate date
 );
 GO
 
@@ -60,8 +59,7 @@ CREATE TABLE gold.dim_products(
 	subcategory nvarchar(50) ,
 	maintenance nvarchar(50) ,
 	cost int,
-	product_line nvarchar(50),
-	start_date date 
+	product_line nvarchar(50)
 );
 GO
 
