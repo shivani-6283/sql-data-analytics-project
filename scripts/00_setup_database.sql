@@ -8,7 +8,7 @@ the final data objects.
 
 Important: 
 Running this script will permanently remove the existing 
-'DataWarehouseAnalytics' database along with all of its data.
+'DataAnalytics' database along with all of its data.
 Make sure any required data has been backed up before executing
 this script.
 */
