@@ -42,12 +42,12 @@ WHERE order_date IS NOT NULL
 GROUP BY YEAR(order_date), MONTH(order_date)
 ORDER BY YEAR(order_date), MONTH(order_date);
 
-----YoY change analyze 
+----YoY Sales change analyze 
 SELECT
     YEAR(order_date) AS order_year,
     SUM(sales_amount) AS current_sale,
     LAG(SUM(sales_amount)) over(ORDER BY YEAR(order_date) ) as py_sale,
-    SUM(sales_amount)-lag(SUM(sales_amount)) over(order by YEAR(order_date)) as diff_py
+    SUM(sales_amount)-LAG(SUM(sales_amount)) over(ORDER BY YEAR(order_date)) as diff_py
 FROM gold.fact_sales
 WHERE order_date IS NOT NULL
 GROUP BY YEAR(order_date)
